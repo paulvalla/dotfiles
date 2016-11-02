@@ -4,3 +4,5 @@
 	signinkey = D6415398
 [commit]
 	gpgsign = true
+[core]
+	editor = /usr/bin/vim
