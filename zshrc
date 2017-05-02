@@ -17,3 +17,4 @@ plugins=(git docker gpg-agent history vagrant)
 
 source $ZSH/oh-my-zsh.sh
 source /usr/local/opt/chruby/share/chruby/chruby.sh
+export GOPATH=~/gopath
