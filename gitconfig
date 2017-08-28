@@ -3,6 +3,9 @@
 	email = pvalla@thoughtworks.com
 	signinkey = D6415398
 [commit]
-	gpgsign = true
+	gpgsign = false
 [core]
 	editor = /usr/bin/vim
+  whitespace = trailing-space,space-before-tab
+[apply]
+  whitespace = fix
