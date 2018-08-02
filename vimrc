@@ -103,7 +103,7 @@ set guicursor=a:block-blinkoff1
 
 " Use 2 spaces in puppet, ruby and xml files
 autocmd FileType puppet,xml,ruby set shiftwidth=2 tabstop=2 softtabstop=2 expandtab
-autocmd FileType yaml,yml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType yaml,yml,md setlocal ts=2 sts=2 sw=2 expandtab
 " Open and close the NERDTree
 map <LocalLeader>t :NERDTreeToggle<CR>
 let NERDTreeWinPos="left"

@@ -1,7 +1,7 @@
 [user]
 	name = Paul Valla
 	email = pvalla@thoughtworks.com
-	signinkey = 839F68A243605BEB
+	signinkey = 6B552CB076D1E464
 [commit]
 	gpgsign = true
 [core]
