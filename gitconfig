@@ -1,18 +1,13 @@
 [user]
 	name = Paul Valla
 	email = pvalla@thoughtworks.com
-	signinkey = 6B552CB076D1E464
+	signingkey = 6B552CB076D1E464
 [commit]
 	gpgsign = true
 [core]
 	editor = /usr/bin/vim
   whitespace = trailing-space,space-before-tab
-	excludesfile = /Users/paul/.gitignore_global
 [apply]
   whitespace = fix
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+[alias]
+  up = pull --rebase
