@@ -16,10 +16,4 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git gpg-agent history )
 
 source $ZSH/oh-my-zsh.sh
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/paul/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/paul/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/paul/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/paul/google-cloud-sdk/completion.zsh.inc'; fi
-
 alias code='open -a "Visual Studio Code"'

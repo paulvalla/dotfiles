@@ -1,4 +1,14 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 16
+    "files.trimTrailingWhitespace": true,
+    "editor.fontSize": 16,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.jediEnabled": false
 }
