@@ -1,9 +1,7 @@
 [user]
 	name = Paul Valla
 	email = pvalla@thoughtworks.com
-	signingkey = 6B552CB076D1E464
-[commit]
-	gpgsign = true
+	signingkey = A24A0CD39C83858C217CDDA208CCE3E2049CB1BA
 [core]
 	editor = /usr/bin/vim
   whitespace = trailing-space,space-before-tab
@@ -11,3 +9,5 @@
   whitespace = fix
 [alias]
   up = pull --rebase
+[commit]
+	gpgsign = true
