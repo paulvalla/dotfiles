@@ -11,3 +11,5 @@
   up = pull --rebase
 [commit]
 	gpgsign = true
+[init]
+	defaultBranch = main
