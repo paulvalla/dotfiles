@@ -11,11 +11,8 @@
         "**/.factorypath": true
     },
     "python.jediEnabled": false,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "python.languageServer": "Microsoft"
 }

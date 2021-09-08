@@ -13,7 +13,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(asdf git history bazel docker )
+plugins=(asdf git history bazel docker batect)
 
 alias code='open -a "Visual Studio Code"'
 
@@ -22,3 +22,4 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[[ :$PATH: == *:$HOME/bin:* ]] || PATH=$HOME/bin:$PATH
